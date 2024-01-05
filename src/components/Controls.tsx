@@ -21,7 +21,7 @@ export const Controls = (props: Props) => {
       <IonListHeader>Click to check weather</IonListHeader>
       <IonList>
         <IonItem>
-          <IonButton onClick={() => fetchWeatherData()}>
+          <IonButton role="button" onClick={() => fetchWeatherData()}>
             <IonIcon slot="start" icon={star} />
             Weather
           </IonButton>
